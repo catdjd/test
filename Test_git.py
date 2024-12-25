@@ -24,6 +24,6 @@ from io import BytesIO
 # df.head()
 
 # Test read file local 
-csv_path = "CRMUSER_ACCOUNTS.csv"
+csv_path = "./CRMUSER_ACCOUNTS.csv"
 df = pd.read_csv(BytesIO(csv_data)) 
 df.head()
